@@ -88,3 +88,25 @@ Our experiments show a clear trade-off between Trust Region (TR) and Stochastic 
 - **Stochastic Gradient Descent (SGD)** offers faster training and lower computational cost, but its performance varies widely depending on hyperparameter settings and initialization. It is better suited for scenarios with limited resources where speed is a higher priority.
 
 Overall, Trust Region is recommended for applications where stability and convergence reliability are critical, while SGD remains a strong choice for quick experiments or resource-constrained settings.
+
+## 📚 References
+
+[1] P. Xu, F. Roosta, and M. W. Mahoney,  
+_Second-order Optimization for Non-convex Machine Learning: An Empirical Study_,  
+Proceedings of the 2020 SIAM International Conference on Data Mining, pp. 199–207, 2020.  
+[🔗 Paper Link](https://epubs.siam.org/doi/10.1137/1.9781611976236.23)
+
+[2] A. Krizhevsky and G. Hinton,  
+_Learning Multiple Layers of Features from Tiny Images_,  
+Technical Report, University of Toronto, 2009.  
+[🔗 Paper Link](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
+
+[3] R. Liaw, E. Liang, R. Nishihara, P. Moritz, J. E. Gonzalez, and I. Stoica,  
+_Tune: A Research Platform for Distributed Model Selection and Training_,  
+Proceedings of the 2018 Workshop on Systems for ML and Open Source Software at NeurIPS, 2018.  
+[🔗 Paper Link](https://arxiv.org/abs/1807.05118)
+
+[4] N. Agarwal, B. Bullins, and E. Hazan,  
+_Second-order Optimization for Non-convex Machine Learning: An Empirical Study_,  
+Proceedings of the 34th International Conference on Machine Learning (ICML), 2017.  
+[🔗 Paper Link](https://arxiv.org/abs/1611.04970)
